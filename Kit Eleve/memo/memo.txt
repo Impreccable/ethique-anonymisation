@@ -1,0 +1,37 @@
+1) What are the necessary preprocessing steps regarding:
+a) classes ?
+    Encoding
+
+b) categorical features ? 
+    OneHotEncoding = get_dummies
+    Label Encoding
+    Handling Missing Values
+
+c) continuous features ?
+    Scaling
+    Handling Outliers
+    Imputation
+
+2) Confusion matrix:
+        [44,  6]
+        [ 9, 32]
+
+        TN = 44
+        FP = 6
+        FN = 9
+        TN = 32
+
+
+a)How many patient were incorrectly diagnosed with a Heart disease (false positives) ?    - 6 patients
+b)How many patient were incorrectly diagnosed as being Healthy (false negatives)?         - 9 patients
+
+
+3) Changing the threshold:
+a)What is the precision if we change the threshold to have a 0.95 recall ? -              0.47126436781609193
+b) How many patient were incorrectly diagnosed as being Healthy (false negatives)?  -     0
+
+
+
+4) Choosing an overall metric:
+a) If I can compute my test sample probabilities and care more about the positive class, which overall metric should I use to compare classifiers ? - precision, recall, F1
+b) And if I only have the class predictions and no probabilities ?                                                                                  - precision, recall, F1
