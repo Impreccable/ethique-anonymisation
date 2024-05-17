@@ -5,3 +5,4 @@ pandas
 anonypy
 scikit-learn
 xgboost
+ipywidgets
